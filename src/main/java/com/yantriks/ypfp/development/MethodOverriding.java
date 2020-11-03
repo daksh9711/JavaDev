@@ -16,12 +16,13 @@ public class MethodOverriding {
         int num=num1+num2+num2;
         return num;
 
+
     }
 
     public static void main(String[] args) {
 
         MethodOverriding overriding=new Child();
-        System.out.println("Addition of two numbers " +overriding.Add(2,3));
+        System.out.println("Addition of twos numbers " +overriding.Add(2,3));
 
     }
 }
